@@ -1,1 +1,184 @@
-<h1>House</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy-Efficient Luxury Home | 3.22 Acres</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+        a { color: #2e7d32; text-decoration: none; }
+        img { max-width: 100%; height: auto; display: block; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* Hero Section - Large Full-Viewport */
+        .hero {
+            position: relative;
+            height: 100vh;
+            min-height: 700px;
+            background: url('https://markstewart.com/wp-content/uploads/2021/06/MODERN-HOUSE-PLAN-FOR-DOWNHILL-LOT-MM-5072-BIG-EASY-FRONT-RENDERING-scaled.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+        .hero h1 { font-size: 4.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 8px rgba(0,0,0,0.8); }
+        .hero p { font-size: 1.8rem; margin-bottom: 2.5rem; }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #2e7d32;
+            color: white;
+            border-radius: 6px;
+            font-size: 1.3rem;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #1b5e20; }
+
+        /* Sections */
+        section { padding: 100px 0; }
+        .section-title { text-align: center; font-size: 3rem; margin-bottom: 60px; color: #1b5e20; }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        .gallery-item { border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+        /* Info Section */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        .info-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .info-card h3 { color: #2e7d32; margin-bottom: 20px; font-size: 1.8rem; }
+
+        /* Contact Form */
+        form { max-width: 700px; margin: 0 auto; }
+        input, textarea {
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 25px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1.1rem;
+        }
+        button.btn { width: 100%; padding: 18px; font-size: 1.4rem; }
+
+        footer { background: #333; color: white; text-align: center; padding: 40px 0; font-size: 1.1rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 3rem; }
+            .hero p { font-size: 1.4rem; }
+            .section-title { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Energy-Efficient Dream Home</h1>
+            <p>4 Bedrooms • 4 Baths • 3,500 Sq Ft • Bonus Room • 3.22 Acres</p>
+            <a href="#contact" class="btn">Inquire for More Details</a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 class="section-title">Renderings & Floor Plans</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://markstewart.com/wp-content/uploads/2021/06/MODERN-HOUSE-PLAN-FOR-DOWNHILL-LOT-MM-5072-BIG-EASY-FRONT-RENDERING-scaled.jpg" alt="Exterior Rendering 1"></div>
+                <div class="gallery-item"><img src="https://www.thehousedesigners.com/images/plans/01/JBZ/bulk/10140/2500-4-day-render_m.webp" alt="Exterior Rendering 2"></div>
+                <div class="gallery-item"><img src="https://jamestownestatehomes.com/wp-content/uploads/2024/10/1031-Lake-Breeze-renderinglr-e1729177623225-1024x620.jpg" alt="Exterior Rendering 3"></div>
+                <div class="gallery-item"><img src="https://archicgi.com/wp-content/uploads/2025/02/3d-rendering-luxurious-living-room.png" alt="3D Interior Living Room"></div>
+                <div class="gallery-item"><img src="https://c8.alamy.com/comp/W4RD34/modern-interior-design-of-house-kitchen-living-room-with-sofa-hall-staircase-3d-rendering-W4RD34.jpg" alt="3D Open Concept Interior"></div>
+                <div class="gallery-item"><img src="https://ssl.cdn-redfin.com/photo/160/mbphotov3/209/genMid.224029209_C.jpg" alt="Aerial View of Property on Acreage"></div>
+                <div class="gallery-item"><img src="https://assets.architecturaldesigns.com/plan_assets/325005171/original/51830HZ_F1_1581546354.gif" alt="Main Floor Plan"></div>
+                <div class="gallery-item"><img src="https://www.thehousedesigners.com/images/plans/01/BDC/bulk/10972/monosnap-aberdovey_second_2605.pdf-2025-07-08-22-50-56_m.webp" alt="Upper Floor Plan"></div>
+                <div class="gallery-item"><img src="https://assets.architecturaldesigns.com/plan_assets/325005171/original/51830HZ_Bonus_1654536860.gif" alt="Bonus Room Floor Plan"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" style="background: #eee;">
+        <div class="container">
+            <h2 class="section-title">About This Home</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Overview</h3>
+                    <p>A custom-built modern luxury home offering 3,500 sq ft of living space on a private 3.22-acre lot. Designed for comfort, privacy, and sustainability.</p>
+                    <ul style="margin-top:20px; padding-left:20px;">
+                        <li>4 Bedrooms</li>
+                        <li>4 Full Bathrooms</li>
+                        <li>Bonus Room (ideal for office, gym, or media)</li>
+                        <li>Open-concept layout with high-end finishes</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Energy-Efficient Features</h3>
+                    <p>Built with the environment and your wallet in mind – superior materials for reduced energy costs.</p>
+                    <ul style="margin-top:20px; padding-left:20px;">
+                        <li>Energy Star-rated appliances</li>
+                        <li>Advanced insulation and sealing</li>
+                        <li>High-efficiency HVAC system</li>
+                        <li>Sustainable, low-VOC building materials</li>
+                        <li>Solar-ready infrastructure</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Location & Lot</h3>
+                    <p>Expansive 3.22 acres providing ultimate privacy and room to grow.</p>
+                    <ul style="margin-top:20px; padding-left:20px;">
+                        <li>Wooded surroundings for natural beauty</li>
+                        <li>Space for gardens, pool, or outbuildings</li>
+                        <li>Convenient access to [local amenities – customize]</li>
+                        <li>Expected Completion: Spring 2026</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone">
+                <textarea rows="6" placeholder="Your Message or Questions" required></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Custom Home. All rights reserved.<br>
+            Contact: your.email@example.com | (123) 456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>
