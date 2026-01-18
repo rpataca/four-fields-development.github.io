@@ -48,12 +48,13 @@
 
         /* Sections */
         section { padding: 100px 0; }
-        .section-title { text-align: center; font-size: 3rem; margin-bottom: 60px; color: #1b5e20; }
+        .section-title { text-align: center; font-size: 3rem; margin-bottom: 10px; color: #1b5e20; }
+        .section-title-small { text-align: center; font-size: 1rem; margin-bottom: 60px; color: #1b5e20; }
 
         /* Gallery Grid */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             gap: 30px;
         }
         .gallery-item { border-radius: 10px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
@@ -106,7 +107,7 @@
     <section id="gallery">
         <div class="container">
             <h2 class="section-title">Renderings & Floor Plans</h2>
-            <h4>(Final home may vary)</h4>
+            <h4 class="section-title-small">(Final home may vary)</h4>
             <div class="gallery-grid">
                 <div class="gallery-item"><img src="house-plans-cover.jpeg" alt="House - Cover"></div>
                 <div class="gallery-item"><img src="house-plans-front.jpeg" alt="House Front"></div>
